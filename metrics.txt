@@ -1,0 +1,54 @@
+Table 10 Performance of MatiVuln fusion64 on Prime-
+SmartVuln dataset
+Label Precision Recall F1-score Support
+Other 0.9365 0.9343 0.9354 6091
+Access Control 0.7684 0.5714 0.6554 476
+Arithmetic 0.9515 0.9654 0.9584 5755
+Denial Service 0.9125 0.8880 0.9001 1268
+Front Running 0.7855 0.7338 0.7588 1018
+Reentrancy 0.9421 0.8647 0.9017 3798
+Time Manipulation 0.8476 0.7773 0.8109 458
+Unchecked Low Calls 0.9513 0.9485 0.9499 4039
+Micro Avg 0.9319 0.9109 0.9213 22903
+Macro Avg 0.8869 0.8354 0.8588 22903
+Weighted Avg 0.9305 0.9109 0.9200 22903
+Samples Avg 0.8801 0.8668 0.8630 22903
+
+Table 9 Performance of MatiVuln f usion8 on Prime-
+SmartVuln dataset
+Label Precision Recall F1-score Support
+Other 0.9294 0.9381 0.9337 6091
+Access Control 0.7041 0.5798 0.6359 476
+Arithmetic 0.9435 0.9685 0.9558 5755
+Denial Service 0.8788 0.8920 0.8853 1268
+Front Running 0.7954 0.6837 0.7353 1018
+Reentrancy 0.9196 0.8791 0.8989 3798
+Time Manipulation 0.7977 0.7664 0.7817 458
+Unchecked Low Calls 0.9530 0.9334 0.9431 4039
+Micro Avg 0.9211 0.9104 0.9157 22903
+Macro Avg 0.8652 0.8301 0.8462 22903
+Weighted Avg 0.9194 0.9104 0.9144 22903
+Samples Avg 0.8746 0.8671 0.8604 22903
+
+Work Metric Avg. Other Access
+Control
+Arithmetic
+Denial
+Service
+Front
+Running
+Reentrancy
+Time
+Manipulation
+Unchecked
+Calls
+Deng’s [38]
+Accuracy 0.8875 0.7915 0.9300 0.9063 0.9385 0.8904 0.8464 0.9294 0.8671
+Precision 0.8261 0.8504 0.9167 0.9188 0.8629 0.7417 0.7900 0.7527 0.7756
+Recall 0.6466 0.7796 0.2088 0.9727 0.9311 0.6083 0.6392 0.2961 0.737
+F1 0.6938 0.8135 0.3401 0.945 0.8957 0.6684 0.7066 0.4251 0.7558
+Sendner’s [32]
+Accuracy 0.675 0.41 0.92 0.21 0.74 0.83 0.69 0.91 0.69
+Precision 0.3025 0.02 0.46 0.01 0.37 0.41 0.35 0.46 0.34
+Recall 0.50 0.50 0.50 0.50 0.50 0.50 0.50 0.50 0.50
+F1 0.39 0.29 0.48 0.17 0.43 0.45 0.41 0.48 0.41
